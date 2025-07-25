@@ -58,7 +58,7 @@ export function Hero() {
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto animate-fadeInUp" style={{ animationDelay: '0.6s' }}>
             <div className="text-center">
-              <div className="text-2xl font-bold text-wizard-primary">2000+</div>
+              <div className="text-2xl font-bold text-wizard-primary">500+</div>
               <div className="text-sm text-muted-foreground">Students Taught</div>
             </div>
             <div className="text-center">
