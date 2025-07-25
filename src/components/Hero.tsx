@@ -62,7 +62,7 @@ export function Hero() {
               <div className="text-sm text-muted-foreground">Students Taught</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-sage-green">98%</div>
+              <div className="text-2xl font-bold text-sage-green">85%</div>
               <div className="text-sm text-muted-foreground">Success Rate</div>
             </div>
             <div className="text-center">
