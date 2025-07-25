@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sage Course Design System - Modern, magical, inspiring */
+
+@layer base {
+  :root {
+    --background: 250 100% 99%;
+    --foreground: 240 20% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 20% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 20% 15%;
+
+    --primary: 260 85% 58%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 260 40% 95%;
+    --secondary-foreground: 260 85% 25%;
+
+    --muted: 260 20% 96%;
+    --muted-foreground: 240 15% 45%;
+
+    --accent: 160 84% 39%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 260 20% 90%;
+    --input: 260 20% 94%;
+    --ring: 260 85% 58%;
+
+    --radius: 0.75rem;
+
+    /* Sage-specific design tokens */
+    --wizard-primary: 260 85% 58%;
+    --wizard-secondary: 280 75% 65%;
+    --sage-green: 160 84% 39%;
+    --sage-light: 160 40% 85%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--wizard-primary)), hsl(var(--wizard-secondary)));
+    --gradient-card: linear-gradient(145deg, hsl(var(--card)), hsl(var(--muted)));
+    --gradient-sage: linear-gradient(120deg, hsl(var(--sage-green)), hsl(var(--accent)));
+    
+    /* Shadows */
+    --shadow-wizard: 0 20px 40px -10px hsl(var(--wizard-primary) / 0.3);
+    --shadow-card: 0 4px 20px -2px hsl(var(--primary) / 0.1);
+    --shadow-glow: 0 0 30px hsl(var(--wizard-primary) / 0.4);
+    
+    /* Animations */
+    --transition-magical: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.3s ease;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 240 15% 8%;
+    --foreground: 250 100% 95%;
+
+    --card: 240 15% 10%;
+    --card-foreground: 250 100% 95%;
+
+    --popover: 240 15% 10%;
+    --popover-foreground: 250 100% 95%;
+
+    --primary: 260 85% 65%;
+    --primary-foreground: 240 15% 8%;
+
+    --secondary: 240 15% 15%;
+    --secondary-foreground: 250 100% 95%;
+
+    --muted: 240 15% 15%;
+    --muted-foreground: 240 20% 65%;
+
+    --accent: 160 84% 45%;
+    --accent-foreground: 240 15% 8%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 240 15% 20%;
+    --input: 240 15% 15%;
+    --ring: 260 85% 65%;
+
+    /* Dark mode wizard colors */
+    --wizard-primary: 260 85% 65%;
+    --wizard-secondary: 280 75% 70%;
+    --sage-green: 160 84% 45%;
+    --sage-light: 160 40% 25%;
+    
+    /* Dark gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--wizard-primary)), hsl(var(--wizard-secondary)));
+    --gradient-card: linear-gradient(145deg, hsl(var(--card)), hsl(var(--muted)));
+    --gradient-sage: linear-gradient(120deg, hsl(var(--sage-green)), hsl(var(--accent)));
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
