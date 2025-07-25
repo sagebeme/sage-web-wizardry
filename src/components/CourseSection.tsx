@@ -123,7 +123,7 @@ export function CourseSection() {
                   Build fast, responsive websites with modern tools and AI assistance
                 </CardDescription>
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-wizard-primary mb-2">$80</div>
+                  <div className="text-4xl font-bold text-wizard-primary mb-2">$65</div>
                   <div className="text-muted-foreground">One-time payment • Lifetime access</div>
                 </div>
               </CardHeader>
@@ -190,7 +190,7 @@ export function CourseSection() {
                   Master the complete development stack and launch real-world applications
                 </CardDescription>
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-sage-green mb-2">$150</div>
+                  <div className="text-4xl font-bold text-sage-green mb-2">$120</div>
                   <div className="text-muted-foreground">One-time payment • Lifetime access</div>
                 </div>
               </CardHeader>
