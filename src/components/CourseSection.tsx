@@ -37,19 +37,19 @@ const testimonialsFrontend = [
     rating: 5
   },
   {
-    name: "Mike Rodriguez",
+    name: "Mike",
     role: "Freelancer",
     content: "The JavaScript modules were incredible. I can now build interactive websites that wow my clients.",
     rating: 5
   },
   {
-    name: "Emma Thompson",
+    name: "Erastus",
     role: "Student",
     content: "AI coding tools changed everything for me. I'm writing better code faster than I ever thought possible.",
     rating: 5
   },
   {
-    name: "David Park",
+    name: "Kimani",
     role: "Designer",
     content: "HTML and CSS finally make sense! Guy's teaching style made complex concepts feel simple.",
     rating: 5
@@ -58,25 +58,25 @@ const testimonialsFrontend = [
 
 const testimonialsFullstack = [
   {
-    name: "Alex Johnson",
-    role: "Startup Founder",
+    name: "Gail",
+    role: "Developer",
     content: "Firebase integration was a game-changer. I built and launched my MVP in just 3 weeks!",
     rating: 5
   },
   {
-    name: "Lisa Wang",
+    name: "Landry",
     role: "Developer",
     content: "The authentication module saved me months of work. My app now has secure user management.",
     rating: 5
   },
   {
-    name: "Carlos Silva",
+    name: "Trevor",
     role: "Entrepreneur",
     content: "From frontend to full deployment - this course covered everything. My app is live and profitable!",
     rating: 5
   },
   {
-    name: "Rachel Green",
+    name: "Shama",
     role: "Tech Lead",
     content: "Firebase database made real-time features so easy to implement. Our users love the instant updates.",
     rating: 5
@@ -123,7 +123,7 @@ export function CourseSection() {
                   Build fast, responsive websites with modern tools and AI assistance
                 </CardDescription>
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-wizard-primary mb-2">$65</div>
+                  <div className="text-4xl font-bold text-wizard-primary mb-2">$93</div>
                   <div className="text-muted-foreground">One-time payment • Lifetime access</div>
                 </div>
               </CardHeader>
@@ -190,7 +190,7 @@ export function CourseSection() {
                   Master the complete development stack and launch real-world applications
                 </CardDescription>
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-sage-green mb-2">$120</div>
+                  <div className="text-4xl font-bold text-sage-green mb-2">$137</div>
                   <div className="text-muted-foreground">One-time payment • Lifetime access</div>
                 </div>
               </CardHeader>
